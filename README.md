@@ -46,5 +46,3 @@ One of the following distributions is needed. Please note that even if you have 
     * cd to 'notebooks'
     * start IPython Notebook 'ipython notebook --pylab=inline'
 
-This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
-
