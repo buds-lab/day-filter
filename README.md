@@ -7,7 +7,8 @@ This notebook will implement the first part of the DayFilter Process on data fro
 
 ###The DayFilter Process is outlined an [Automation in Construction publication](https://www.researchgate.net/publication/266616977_Automated_daily_pattern_filtering_of_measured_building_performance_data) -- the dataset used in this notebook is identical to that illustrated in the paper.
 
-###A hosted version of the notebook is found [here](http://nbviewer.ipython.org/github/cmiller8/DayFilter/blob/master/DayFilter%20Process.ipynb)
+###Hosted versions of the notebooks: 
+[Part 1 - Symbolic Aggregate Approximation to create motif and discord candidates](http://nbviewer.ipython.org/github/cmiller8/DayFilter/blob/master/DayFilter%20Process%20-%20Part%201%20-%20SAX.ipynb)
 
 The purpose of `DayFilter` is the automate the process of simply characterizing different day-types accoding to the frequency or infrequency that they occur. Simply separating the *normal* from the *weird*
 This dataset is downloadable [here](https://www.dropbox.com/s/30nkwi671ad6lpe/RawData.zip?dl=0) and is licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/). 
