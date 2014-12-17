@@ -1,0 +1,66 @@
+{
+  "name": "cal-heatmap",
+  "version": "3.5.0",
+  "description": "Cal-Heatmap is a javascript module to create calendar heatmap to visualize time series data",
+  "keywords": [
+    "calendar",
+    "graph",
+    "d3js",
+    "heat map"
+  ],
+  "main": "cal-heatmap.min.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "d3": ">= v3.0.6"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-css": "~0.5.3",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-copy": "~0.4.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-replace": "~0.4.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-karma-coveralls": "~2.0.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "phantomjs": "~1.9.1-0",
+    "grunt-contrib-qunit": "~0.4.0",
+    "karma": "~0.9",
+    "karma-coverage": "~0.1.0",
+    "karma-qunit": "~0.1.0",
+    "qunitjs": "~1.12",
+    "jquery": "~1.9.1"
+  },
+  "scripts": {
+    "test": "grunt travis --verbose; ./node_modules/.bin/karma start --single-run --browsers PhantomJS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamisama/cal-heatmap.git"
+  },
+  "homepage": "https://github.com/kamisama/cal-heatmap",
+  "author": {
+    "name": "Wan Qi Chen",
+    "url": "http://www.kamisama.me"
+  },
+  "license": "MIT",
+  "gitHead": "e7bf798c210e0c25df9f6857bdb268001ef67fd1",
+  "volo": {
+    "dependencies": {
+      "d3": "d3"
+    }
+  },
+  "jam": {
+    "dependencies": {
+      "d3": ">=3.0.6"
+    }
+  },
+  "bugs": "https://github.com/kamisama/cal-heatmap/issues",
+  "github": "https://github.com/kamisama/cal-heatmap",
+  "categories": [
+    "Data",
+    "Visualization"
+  ]
+}
