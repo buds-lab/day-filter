@@ -1,15 +1,15 @@
-#DayFilter Process - Filtering diurnal patterns from building performance data
+# DayFilter Process - Filtering diurnal patterns from building performance data
 
 Created by [Clayton Miller](https://www.researchgate.net/profile/Clayton_Miller2)
 Builds upon a series of Commercial Open Building Datasets on [datadrivenbuilding.org](http://datadrivenbuilding.org/)
 
 This notebook will implement the first part of the DayFilter Process on data from the [United World College of South East Asia Tampines Campus in Singapore](https://www.uwcsea.edu.sg/east-campus). 
 
-####The DayFilter Process is outlined an [Automation in Construction publication](https://www.researchgate.net/publication/266616977_Automated_daily_pattern_filtering_of_measured_building_performance_data) -- the dataset used in this notebook is identical to that illustrated in the paper.
+#### The DayFilter Process is outlined an [Automation in Construction publication](https://www.researchgate.net/publication/266616977_Automated_daily_pattern_filtering_of_measured_building_performance_data) -- the dataset used in this notebook is identical to that illustrated in the paper.
 
-##Hosted versions of the notebooks: 
-###[Part 1 - Symbolic Aggregate Approximation to create motif and discord candidates](http://nbviewer.ipython.org/github/cmiller8/DayFilter/blob/master/DayFilter%20Process%20-%20Part%201%20-%20SAX.ipynb)
-###[Part 2 - Motif Candidate Clustering](http://nbviewer.ipython.org/github/cmiller8/DayFilter/blob/master/DayFilter%20Process%20-%20Part%202%20-%20Clustering%20Motif%20Candidates.ipynb)
+## Hosted versions of the notebooks: 
+### [Part 1 - Symbolic Aggregate Approximation to create motif and discord candidates](http://nbviewer.ipython.org/github/cmiller8/DayFilter/blob/master/DayFilter%20Process%20-%20Part%201%20-%20SAX.ipynb)
+### [Part 2 - Motif Candidate Clustering](http://nbviewer.ipython.org/github/cmiller8/DayFilter/blob/master/DayFilter%20Process%20-%20Part%202%20-%20Clustering%20Motif%20Candidates.ipynb)
 
 The purpose of `DayFilter` is the automate the process of simply characterizing different day-types accoding to the frequency or infrequency that they occur. Simply separating the *normal* from the *weird*
 
